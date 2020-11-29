@@ -24,6 +24,7 @@ section {
 
 button a {
     text-decoration: none;
+    color: inherit;
 }
 
 button,
@@ -140,6 +141,21 @@ hr {
     padding: 2% 0;
 }
 
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-item img {
+    min-width: 100%;
+    height: 83vh;
+}
+
+#antifooter img {
+    max-width: 100%;
+}
+
 footer {
     margin-top: 20px;
     margin-bottom: 0 !important;
@@ -169,6 +185,12 @@ footer p {
 @media (max-height: 768) and (max-width: 1024) {
     .text-top {
         padding-top: calc(100vh /2.5);
+    }
+}
+
+@media (max-width: 768) {
+    hr {
+        margin: 7%;
     }
 }
 

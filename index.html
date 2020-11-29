@@ -39,7 +39,7 @@
                         <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#aboutus">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#proplayers">Players</a>
@@ -60,14 +60,21 @@
     <section id="home">
         <h1 class="text-top">Name <small>your</small> Clan</h1>
         <p>THE BEST CLAN OF Call <small>of</small> Duty</p>
-        <button class="button-top"><a href="#proplayers">Players<</a></button><button class="button-top"><a href="#partners">Partners</a> </button>
+        <button class="button-top"><a href="#proplayers">Players</a></button><button class="button-top"><a href="#partners">Partners</a> </button>
     </section>
 
     <div class="container-fluid">
-        <section id="about">
+        <section id="aboutus">
             <hr>
-            <h1 class="all-center">About</h1>
-
+            <h1 class="all-center">About Us</h1>
+            <h2>What is Lorem Ipsum?</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <h2>Why do we use it?</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
         </section>
         <section id="proplayers">
             <hr>
@@ -142,7 +149,54 @@
         <section id="gallery">
             <hr>
             <h1 class="all-center">Gallery</h1>
-
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/carousel/1.jpg" class="d-block w-100 img-fluid" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Image 1</h5>
+                                <p>Subtitle 1</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/carousel/2.jpg" class="d-block w-100 img-fluid" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Image 2</h5>
+                                <p>Subtitle 1</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/carousel/3.jpg" class="d-block w-100 img-fluid" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Image 3</h5>
+                                <p>Subtitle 1</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/carousel/4.jpg" class="d-block w-100 img-fluid" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Image 4</h5>
+                                <p>Subtitle 1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
         </section>
         <section id="partners">
             <hr>
@@ -174,15 +228,15 @@
             <hr>
             <h1 class="all-center">Contact</h1>
             <div class="row text-center">
-                <div class="col-12 col-md-4 col-sm-12">
+                <div class="col-4">
                     <h2>E-mail</h2>
                     <p>your@email.com</p>
                 </div>
-                <div class="col-12 col-md-4 col-sm-12">
+                <div class="col-4">
                     <h2>Telephone</h2>
                     <p>000-000-000</p>
                 </div>
-                <div class="col-12 col-md-4 col-sm-12">
+                <div class="col-4">
                     <h2>Address</h2>
                     <p>Wall Stret, New York</p>
                 </div>
@@ -192,34 +246,33 @@
             <div class="row text-center">
                 <div class="col-12 col-md-4 col-sm-12">
                     <h2>Instagram Feed</h2>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
-                        Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections
-                        1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
-                        "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    <p><img src="./images/insta.jpg"></p>
                 </div>
                 <div class="col-12 col-md-4 col-sm-12">
                     <h2>Facebook Feed</h2>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
-                        using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
-                        sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                    <p><img src="./images/fb.jpg"></p>
                 </div>
                 <div class="col-12 col-md-4 col-sm-12">
                     <h2>Youtube Feed</h2>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
-                        Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections
-                        1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
-                        "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                    <p><img src="./images/yt.jpg"></p>
                 </div>
             </div>
         </section>
     </div>
     <footer>
-        <p>© 2020 Desenvolvido por <a href="https://www.linkedin.com/in/gsiilva/" target="_blank">Guilherme Silva</a>
+        <p>© 2020 Development by <a href="https://www.linkedin.com/in/gsiilva/" target="_blank">Guilherme Silva</a>
         </p>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ==" crossorigin="anonymous"></script>
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
 
     <script type="text/javascript">
         $(document).on('click', '.navbar-collapse', function(e) {
